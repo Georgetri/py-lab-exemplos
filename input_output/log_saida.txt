@@ -1,0 +1,2 @@
+Esta linha vai para o arquivo log_saida.txt
+Outro exemplo de log
