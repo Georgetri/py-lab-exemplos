@@ -24,5 +24,4 @@ while i < matriz.shape[0]:
         j += 1
     i += 1
 
-print()
-print(f"Soma dos números da matriz: {soma}")
+print(f"\n \nSoma dos números da matriz: {soma}")
