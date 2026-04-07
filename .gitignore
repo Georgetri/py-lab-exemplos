@@ -1,0 +1,40 @@
+﻿# IDE
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambientes
+.venv/
+venv/
+env/
+
+# Dados
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos pesados
+*.pdf
+
+# Pastas que não vao subir agora
+estudos/Bibliotecas_Uteis/
+estudos/Basico_Inicio/
+estudos/Escopo*
+estudos/Estruturas_Repeticao/
+estudos/Estruturas_de_Modularizacao/
+estudos/Expressoes_Logicas/
+estudos/Expressoes_Regulares/
+estudos/POO/
+estudos/Tratamento_Erros/
+src/
