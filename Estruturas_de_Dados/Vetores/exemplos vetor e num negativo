@@ -1,0 +1,75 @@
+'''
+==============================================
+🏗️  COMPARATIVO DE FORMAS DE PREENCHER UM VETOR EM PYTHON
+Autor: Jorge Luis
+Objetivo: Mostrar diferentes maneiras de criar e filtrar um vetor
+sem precisar usar variável auxiliar ou preenchimento por índice.
+==============================================
+'''
+
+# =====================================================
+# 🧩 VERSÃO 1 — COMPREENSÃO DE LISTAS (List Comprehension)
+# =====================================================
+print("\n🔹 Versão 1 — Compreensão de listas")
+num = int(input("Tamanho do vetor: "))
+vetor = [int(input(f"Digite o {i+1}º número: ")) for i in range(num)]
+negativos = [n for n in vetor if n < 0]
+
+print("Vetor completo:", vetor)
+print("Negativos:", negativos)
+
+
+# =====================================================
+# 🧠 VERSÃO 2 — FILTER + LAMBDA (ESTILO FUNCIONAL)
+# =====================================================
+print("\n🔹 Versão 2 — Filter + Lambda (estilo funcional)")
+num = int(input("Tamanho do vetor: "))
+vetor = [int(input(f"Digite o {i+1}º número: ")) for i in range(num)]
+negativos = list(filter(lambda x: x < 0, vetor))
+
+print("Vetor completo:", vetor)
+print("Negativos:", negativos)
+
+
+# =====================================================
+# ⚙️ VERSÃO 3 — EXPRESSÃO GERADORA (EFICIENTE)
+# =====================================================
+print("\n🔹 Versão 3 — Expressão geradora (eficiente)")
+num = int(input("Tamanho do vetor: "))
+vetor = [int(input(f"Digite o {i+1}º número: ")) for i in range(num)]
+negativos = list(x for x in vetor if x < 0)
+
+print(f"Vetor completo: {vetor}\nNegativos: {negativos}")
+
+
+# =====================================================
+# 🧮 VERSÃO 4 — FUNÇÃO COM RETORNO AUTOMÁTICO
+# =====================================================
+print("\n🔹 Versão 4 — Função pura com retorno automático")
+
+def ler_vetor(n):
+    """Lê n números e retorna uma lista de inteiros."""
+    return [int(input(f"Digite o {i+1}º número: ")) for i in range(n)]
+
+num = int(input("Tamanho do vetor: "))
+vetor = ler_vetor(num)
+negativos = [n for n in vetor if n < 0]
+
+print("Vetor completo:", vetor)
+print("Negativos:", negativos)
+
+
+'''
+==============================================
+📊 ANÁLISE DE COMPLEXIDADE
+----------------------------------------------
+Todas as versões têm complexidade O(n)
+para percorrer o vetor e filtrar os negativos.
+
+Diferenças principais:
+- Versão 1 → estilo Python moderno e legível.
+- Versão 2 → estilo funcional (filter/lambda).
+- Versão 3 → eficiente para grandes listas (gerador).
+- Versão 4 → mais modular e reutilizável (função pura).
+==============================================
+'''

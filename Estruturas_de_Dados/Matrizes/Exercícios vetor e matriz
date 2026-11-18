@@ -1,0 +1,93 @@
+🧩 ETAPA 1 — Fundamentos da Lógica (nível fácil)
+
+Treina condições, laços e listas.
+
+💡 Foco: raciocínio passo a passo + estrutura mental de algoritmos.
+
+🧠 Exercícios:
+
+Ler 5 números e dizer qual é o maior e o menor.
+
+Calcular a média de uma lista e exibir quem está acima dela.
+
+Contar quantos números pares e ímpares há em um vetor.
+
+Gerar a tabuada de um número.
+
+Verificar se uma palavra é palíndromo.
+
+Contar quantas vogais há em uma frase.
+
+Somar apenas os números positivos de uma lista.
+
+Reverter uma lista sem usar reversed().
+
+Contar quantos números negativos há em uma lista.
+
+Calcular o fatorial de um número (sem math).
+
+🧮 ETAPA 2 — Estruturas compostas (nível médio)
+
+Treina listas de listas, dicionários e lógica de busca.
+
+💡 Foco: combinar estruturas e raciocinar com dados agrupados.
+
+🧠 Exercícios:
+
+Ler uma matriz 3x3 e mostrar a soma dos elementos da diagonal principal.
+
+Contar quantas vezes cada letra aparece em uma frase.
+
+Criar um dicionário com nomes e idades e mostrar quem é mais velho.
+
+Ler 10 números e eliminar os repetidos (usando set).
+
+Criar uma lista com apenas os números únicos (sem duplicatas).
+
+Verificar se duas listas têm elementos em comum.
+
+Fazer um menu com opções (ex: calcular média, ver maior, sair).
+
+Criar uma função que receba um vetor e retorne a soma de todos os elementos pares.
+
+Montar uma lista com os números primos até N.
+
+Simular o lançamento de um dado 100 vezes e contar as ocorrências (com random).
+
+🧠 ETAPA 3 — Raciocínio avançado (nível difícil)
+
+Treina algoritmos clássicos e mentalidade Big-O.
+
+💡 Foco: otimização, abstração e raciocínio algorítmico.
+
+🧠 Exercícios:
+
+Ordenar um vetor manualmente (Bubble Sort, Selection Sort, etc.).
+
+Fazer busca binária em lista ordenada.
+
+Implementar recursivamente: soma de vetor, fatorial, Fibonacci.
+
+Detectar números duplicados em uma lista grande (eficiente).
+
+Inverter uma string sem usar funções prontas.
+
+Verificar se uma matriz é simétrica.
+
+Calcular a soma dos elementos acima da diagonal principal.
+
+Gerar todas as combinações possíveis de 3 elementos de uma lista (itertools).
+
+Criar um mini sistema de cadastro (lista de dicionários).
+
+Simular uma fila e uma pilha com listas (append, pop, insert).
+
+🚀 ETAPA 4 — Aplicação e reflexão
+
+💡 Foco: consolidar raciocínio e aprender com o próprio código.
+
+Refaça seus próprios exercícios com outra abordagem (for → while, lista → set, etc.).
+
+Analise o tempo de execução (timeit) e memória (sys.getsizeof).
+
+Escreva um pequeno relatório: “o que aprendi com esse código”.
